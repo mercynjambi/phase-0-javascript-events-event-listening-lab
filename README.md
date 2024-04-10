@@ -30,10 +30,7 @@ event listener for the `click` event on the `input#button` element in
 Try out the following in the Chrome DevTools console:
 
 ```js
-const input = document.getElementById('button');
-input.addEventListener('click', function() {
-  alert('I was clicked!');
-});
+
 ```
 
 Now when you click inside of `input#button`, you will get an alert box.
